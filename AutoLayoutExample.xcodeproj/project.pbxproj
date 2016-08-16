@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		270BC18E1D6343AD00FBE2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC18D1D6343AD00FBE2BD /* AppDelegate.swift */; };
-		270BC1901D6343AD00FBE2BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC18F1D6343AD00FBE2BD /* ViewController.swift */; };
+		270BC1901D6343AD00FBE2BD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC18F1D6343AD00FBE2BD /* MainViewController.swift */; };
 		270BC1931D6343AD00FBE2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270BC1911D6343AD00FBE2BD /* Main.storyboard */; };
 		270BC1951D6343AD00FBE2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270BC1941D6343AD00FBE2BD /* Assets.xcassets */; };
 		270BC1981D6343AD00FBE2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270BC1961D6343AD00FBE2BD /* LaunchScreen.storyboard */; };
+		270BC1A01D63719400FBE2BD /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC19F1D63719400FBE2BD /* EmptyViewController.swift */; };
+		270BC1A21D6371BA00FBE2BD /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC1A11D6371BA00FBE2BD /* CenterViewController.swift */; };
+		270BC1A41D6371D600FBE2BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC1A31D6371D600FBE2BD /* LoginViewController.swift */; };
+		270BC1A61D63720B00FBE2BD /* SelfSizingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270BC1A51D63720B00FBE2BD /* SelfSizingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		270BC18A1D6343AD00FBE2BD /* AutoLayoutExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		270BC18D1D6343AD00FBE2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		270BC18F1D6343AD00FBE2BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		270BC18F1D6343AD00FBE2BD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		270BC1921D6343AD00FBE2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		270BC1941D6343AD00FBE2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270BC1971D6343AD00FBE2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270BC1991D6343AD00FBE2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270BC19F1D63719400FBE2BD /* EmptyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		270BC1A11D6371BA00FBE2BD /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		270BC1A31D6371D600FBE2BD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		270BC1A51D63720B00FBE2BD /* SelfSizingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSizingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				270BC18D1D6343AD00FBE2BD /* AppDelegate.swift */,
-				270BC18F1D6343AD00FBE2BD /* ViewController.swift */,
+				270BC18F1D6343AD00FBE2BD /* MainViewController.swift */,
+				270BC19F1D63719400FBE2BD /* EmptyViewController.swift */,
+				270BC1A11D6371BA00FBE2BD /* CenterViewController.swift */,
+				270BC1A31D6371D600FBE2BD /* LoginViewController.swift */,
+				270BC1A51D63720B00FBE2BD /* SelfSizingTableViewController.swift */,
 				270BC1911D6343AD00FBE2BD /* Main.storyboard */,
 				270BC1941D6343AD00FBE2BD /* Assets.xcassets */,
 				270BC1961D6343AD00FBE2BD /* LaunchScreen.storyboard */,
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					270BC1891D6343AD00FBE2BD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 47LVS8UB5Q;
 					};
 				};
 			};
@@ -135,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270BC1901D6343AD00FBE2BD /* ViewController.swift in Sources */,
+				270BC1A01D63719400FBE2BD /* EmptyViewController.swift in Sources */,
+				270BC1A21D6371BA00FBE2BD /* CenterViewController.swift in Sources */,
+				270BC1901D6343AD00FBE2BD /* MainViewController.swift in Sources */,
+				270BC1A61D63720B00FBE2BD /* SelfSizingTableViewController.swift in Sources */,
+				270BC1A41D6371D600FBE2BD /* LoginViewController.swift in Sources */,
 				270BC18E1D6343AD00FBE2BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +268,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AutoLayoutExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CopyIsRight.AutoLayoutExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AutoLayoutExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CopyIsRight.AutoLayoutExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

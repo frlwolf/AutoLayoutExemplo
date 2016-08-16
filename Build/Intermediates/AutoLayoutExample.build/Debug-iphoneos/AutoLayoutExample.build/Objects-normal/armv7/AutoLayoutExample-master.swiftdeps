@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "8f986adc3fa048f0fc5c7205be73b412"
+build_time: [524693744, 126744000]
+inputs:
+  "/Users/felipelobo/Dev/iOS/AutoLayoutExample/AutoLayoutExample/EmptyViewController.swift": [524683501, 0]
+  "/Users/felipelobo/Dev/iOS/AutoLayoutExample/AutoLayoutExample/CenterViewController.swift": [524687836, 0]
+  "/Users/felipelobo/Dev/iOS/AutoLayoutExample/AutoLayoutExample/MainViewController.swift": [524693741, 0]
+  "/Users/felipelobo/Dev/iOS/AutoLayoutExample/AutoLayoutExample/SelfSizingTableViewController.swift": [524692646, 0]
+  "/Users/felipelobo/Dev/iOS/AutoLayoutExample/AutoLayoutExample/LoginViewController.swift": [524693561, 0]
+  "/Users/felipelobo/Dev/iOS/AutoLayoutExample/AutoLayoutExample/AppDelegate.swift": [524683170, 0]
